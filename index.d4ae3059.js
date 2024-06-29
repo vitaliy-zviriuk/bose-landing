@@ -1,0 +1,2 @@
+window.addEventListener("hashchange",function(){"#menu"===window.location.hash?document.body.classList.add("page__body--with-menu"):document.body.classList.remove("page__body--with-menu")});var e=document.querySelector(".form"),t=document.querySelectorAll(".form-field"),o=document.querySelector(".form-field--textarea");e.addEventListener("submit",function(e){e.preventDefault(),t.forEach(function(e){e.value=""}),o.value=""});
+//# sourceMappingURL=index.d4ae3059.js.map
