@@ -28,7 +28,7 @@
    - DRY Principle: By using variables, mixins, and loops in SCSS, I adhered to the DRY (Don't Repeat Yourself) principle, making my code more efficient and easier to maintain.  
    - BEM Naming Convention: The use of BEM (Block, Element, Modifier) methodology (`.about__title`, `.category-prod__photos-container`) for naming classes makes my CSS more readable and modular.    
 
-3. To run project:     
+### To run project:     
   - git clone  
   - npm install  
   - npm start   
