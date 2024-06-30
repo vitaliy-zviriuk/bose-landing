@@ -1,8 +1,6 @@
 - [DEMO LINK](https://zvir91.github.io/bose-landing/);  
 - [GITHUB](https://github.com/zvir91/bose-landing);  
-- [MOCKUP] (https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703-88);   
-
-- In this project, I've learned how to structure and style a multi-page website using HTML and SCSS (Sass), incorporating modern web development practices. Here's a brief overview of what I've covered:  
+- [MOCKUP](https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703-88);   
 
 ### Technologies Used:  
 1. **HTML**:  
@@ -28,9 +26,7 @@
 
 6. **Best Practices**:  
    - DRY Principle: By using variables, mixins, and loops in SCSS, I adhered to the DRY (Don't Repeat Yourself) principle, making my code more efficient and easier to maintain.  
-   - BEM Naming Convention: The use of BEM (Block, Element, Modifier) methodology (`.about__title`, `.category-prod__photos-container`) for naming classes makes my CSS more readable and modular.  
-
-  By combining these skills, I've built a responsive, interactive website for a fictional brand (BOSE) that showcases various products, provides navigation  through a menu, and incorporates modern web design principles for a seamless user experience across devices.    
+   - BEM Naming Convention: The use of BEM (Block, Element, Modifier) methodology (`.about__title`, `.category-prod__photos-container`) for naming classes makes my CSS more readable and modular.    
 
 3. To run project:     
   - git clone  
