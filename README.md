@@ -1,37 +1,38 @@
-- [DEMO LINK](https://zvir91.github.io/bose-landing/)
-- [GITHUB](https://github.com/zvir91/bose-landing)
+- [DEMO LINK](https://zvir91.github.io/bose-landing/);  
+- [GITHUB](https://github.com/zvir91/bose-landing);  
+- [MOCKUP] (https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703-88);   
 
-1. Technologies were used: HTML, SCSS, JS.
+- In this project, I've learned how to structure and style a multi-page website using HTML and SCSS (Sass), incorporating modern web development practices. Here's a brief overview of what I've covered:  
 
-2. In this project, I've learned how to structure and style a multi-page website using HTML and SCSS (Sass), incorporating modern web development practices. Here's a brief overview of what I've covered:  
+### Technologies Used:  
+1. **HTML**:  
+   - Structure: I structured my web pages using semantic HTML, which improves accessibility and SEO.  
 
-HTML Structure:  
-  1. Document Structure: Utilized proper HTML5 semantic elements (!DOCTYPE htm, html, head, body) to structure the webpage.  
-  2. Sections and Navigation: Created multiple sections (header, nav, mai>, footer) to organize content effectively.  
-  3. Links and Images: Employed 'a' tags for navigation links and img tags for embedding images with appropriate alt attributes.  
+2. **SCSS (Sass)**:  
+   - Variables: I used SCSS variables for managing color schemes (`$color-black`, `$color-second`, etc.), which enhances consistency and maintainability.  
+   - Nesting: I employed nested rules, making the stylesheet more readable and logically organized.  
+   - Mixins: I used mixins (`@include tablet`, `@include desktop`) for media queries, which reduces code repetition and   simplifies responsive design.  
+   - Loops: I utilized loops (`@for`) in SCSS for generating repetitive code, showcasing advanced usage of Sass.  
 
-SCSS (Sass) Styling:  
-  1. Variables and Mixins: Defined reusable styles using variables (e.g., $color-black, $transion) and mixins (@mixin desktop, @mixin tablet) to ensure consistency and maintainability across 
-    different screen sizes.  
-  2. Nested Selectors: Used nested selectors to encapsulate styles for specific components (&__title, &__subtitle) within their parent elements.  
-  3. Responsive Design: Implemented responsive design techniques (@include tablet, @include desktop) to adjust layout and typography based on different viewport sizes.  
+3. **Responsive Design**:  
+   - Media Queries: I applied media queries for different breakpoints (`tablet`, `desktop`), ensuring my website looks good on various devices.  
+   - Flexbox: I used Flexbox (`display: flex`, `justify-content`, `align-items`) for layout, providing a flexible and efficient way to arrange items within a container.  
+   - Grid Layout: I implemented CSS Grid for complex layouts, making it easier to create responsive grid-based designs.  
 
-JavaScript Interaction:  
-  1. Event Listeners: Implemented JavaScript (main.js) to handle interactions such as toggling classes based on URL hash changes (window.addEventListener('hashchange')) and form submissions (form.addEventListener('submit')).  
-  2. DOM Manipulation: Used document.querySelector() and querySelectorAll() to access and manipulate DOM elements dynamically based on user interactions.  
+4. **CSS Transitions**:  
+   - Smooth Transitions: I used CSS transitions (`transition: all $transion`) to enhance user interactions with smooth animations.  
 
-Additional Concepts:  
-  1. Fonts and Icons: Integrated Google Fonts (Inter) and included custom SVG icons (favicon.svg) for improved aesthetics and accessibility.  
-  2. External Resources: Linked external CSS (main.scss) and JavaScript (main.js) files, improving modularity and maintainability of the project.  
-  3. Accessibility: Ensured accessibility by providing meaningful alternative text (alt attributes) for images and using semantic HTML elements for better screen reader compatibility.  
+5. **Accessibility**:  
+   - Semantic HTML: Using semantic elements improves the accessibility of my web pages.  
+   - Responsive Images: Ensuring images adapt to different screen sizes improves the user experience across devices.  
 
-Project Structure:  
-  1. Organized stylesheet (main.scss) using modular imports (@import) for different components (header, menu, about, products, etc.) to maintain a structured and scalable codebase.  
-  2. Employed SCSS features like nesting, mixins, and variables to enhance code readability and streamline CSS development.  
+6. **Best Practices**:  
+   - DRY Principle: By using variables, mixins, and loops in SCSS, I adhered to the DRY (Don't Repeat Yourself) principle, making my code more efficient and easier to maintain.  
+   - BEM Naming Convention: The use of BEM (Block, Element, Modifier) methodology (`.about__title`, `.category-prod__photos-container`) for naming classes makes my CSS more readable and modular.  
 
-By combining these skills, I've built a responsive, interactive website for a fictional brand (BOSE) that showcases various products, provides navigation through a menu, and incorporates modern web design principles for a seamless user experience across devices.   
+  By combining these skills, I've built a responsive, interactive website for a fictional brand (BOSE) that showcases various products, provides navigation  through a menu, and incorporates modern web design principles for a seamless user experience across devices.    
 
-3. To run project:   
+3. To run project:     
   - git clone  
   - npm install  
   - npm start   
