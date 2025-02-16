@@ -1,5 +1,5 @@
-- [DEMO LINK](https://zvir91.github.io/bose-landing/);  
-- [GITHUB](https://github.com/zvir91/bose-landing);  
+- [DEMO LINK](https://vitaliy-zviriuk.github.io/bose-landing/);  
+- [GITHUB](https://github.com/vitaliy-zviriuk/bose-landing);  
 - [MOCKUP](https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6703-88);   
 
 ### Technologies Used:  
